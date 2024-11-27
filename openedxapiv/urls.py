@@ -3,7 +3,7 @@ URLs for openedxapiv.
 """
 from django.urls import re_path  # pylint: disable=unused-import
 from django.views.generic import TemplateView  # pylint: disable=unused-import
-from simple_list import SimpleGetAPI
+from  openedxapiv.simple_list import SimpleGetAPI
 
 urlpatterns = [
     # TODO: Fill in URL patterns and views here.
