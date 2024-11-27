@@ -4,8 +4,9 @@ openedxapiv Django application initialization.
 
 import logging
 from django.apps import AppConfig
-from edx_django_utils.plugins import PluginSettings, PluginURLs
-from openedx.core.djangoapps.plugins.constants import ProjectType, SettingsType
+from edx_django_utils.plugins import  PluginURLs
+from openedx.core.djangoapps.plugins.constants import ProjectType
+
 
 log = logging.getLogger(__name__)
 
@@ -14,7 +15,7 @@ log = logging.getLogger(__name__)
 class OpenedxapivConfig(AppConfig):
     """
     Configuration for the openedxapiv Django application.
-    """
+    """ 
 
     name = 'openedxapiv'
     plugin_app = {
