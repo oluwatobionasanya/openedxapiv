@@ -1,7 +1,7 @@
 """
 URLs for openedxapiv.
 """
-from django.urls import path,re_path  # pylint: disable=unused-import
+from django.urls import path
 from  openedxapiv.simple_list import SimpleGetAPI
 
 urlpatterns = [
